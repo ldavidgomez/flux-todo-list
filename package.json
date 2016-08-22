@@ -4,6 +4,7 @@
   "description": "Ejemplo introductorio a Flux",
   "dependencies": {
     "flux": "^2.1.1",
+    "keymirror": "^0.1.1",
     "object-assign": "^4.0.1",
     "react": "^0.14.7",
     "react-dom": "^0.14.7"
@@ -28,5 +29,15 @@
     "react-transform-catch-errors": "^1.0.2",
     "react-transform-hmr": "^1.0.4",
     "strip-loader": "^0.1.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldavidgomez/flux-todo-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ldavidgomez/flux-todo-list/issues"
+  },
+  "homepage": "https://github.com/ldavidgomez/flux-todo-list#readme"
 }
