@@ -31,7 +31,7 @@ TodoActions.delete = function (id) {
 
 TodoActions.deleteAll = function () {
     AppDispatcher.dispatch({
-        actionType: TodoActions.TODO_DESTROY_COMPLETED
+        actionType: TodoConstants.TODO_DESTROY_COMPLETED
     })
 }
 
