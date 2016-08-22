@@ -38,4 +38,3 @@ var TodoStore = assign({}, EventEmitter.prototype, {
         this.on(CHANGE_EVENT, callback)
     }
 });
-});
