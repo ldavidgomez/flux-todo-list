@@ -62,11 +62,11 @@ AppDispatcher.register(function (action) {
             }
             break;
         case TodoConstants.TODO_COMPLETE:
-            update(action.id, {complete: true});
+            update(action.id, {completed: true});
             TodoStore.emitChange();
             break;
         case TodoConstants.TODO_UNDO_COMPLETE:
-            update(action.id, {complete: false});
+            update(action.id, {completed: false});
             TodoStore.emitChange();
             break;
         case TodoConstants.TODO_DESTROY:

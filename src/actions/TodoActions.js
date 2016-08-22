@@ -14,7 +14,7 @@ TodoActions.create = function (text) {
 };
 TodoActions.toggleComplete = function (todo) {
     var id = todo.id;
-    var actionType = todo.complete ? TodoConstants.TODO_UNDO_COMPLETE : TodoConstants.TODO_COMPLETE;
+    var actionType = todo.completed ? TodoConstants.TODO_UNDO_COMPLETE : TodoConstants.TODO_COMPLETE;
 
     AppDispatcher.dispatch({
         actionType: actionType,
