@@ -1,5 +1,5 @@
 {
-  "name": "flux-intro",
+  "name": "flux-todo-list",
   "version": "0.0.1",
   "description": "Ejemplo introductorio a Flux",
   "dependencies": {
