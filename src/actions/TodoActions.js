@@ -22,4 +22,17 @@ TodoActions.toggleComplete = function (todo) {
     });
 };
 
+TodoActions.delete = function (id) {
+    AppDispatcher.dispatch({
+        actionType: TodoConstants.TODO_DESTROY,
+        id: id
+    })
+}
+
+TodoActions.deleteAll = function () {
+    AppDispatcher.dispatch({
+        actionType: TodoActions.TODO_DESTROY_COMPLETED
+    })
+}
+
 module.exports = TodoActions;
