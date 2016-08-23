@@ -4,7 +4,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 var ReactPropTypes = React.PropTypes;
-var Style = require('../styles/index');
+var styles = require('../styles/index');
 
 var TodoActions = require('../actions/TodoActions');
 
@@ -30,7 +30,7 @@ var Main = React.createClass({
                 onClick={this._onClick.bind(this, todosProp[key])}
                 key={todosProp[key].id}>
                 <span className="check"
-                      style={(todosProp[key].completed) ? Style.completed : {}}
+                      style={(todosProp[key].completed) ? styles.completed : {}}
                 >{todosProp[key].text}</span>
                 <span className="delete" onClick={this._delete.bind(this, todosProp[key].id)}> X </span>
             </li>);

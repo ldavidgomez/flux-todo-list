@@ -3,10 +3,7 @@
  */
 var styles = {
     completed : {
-        // textDecorationLine: 'line-through',
-        // textDecorationStyle: 'solid'
-        marginTop: '25px',
-        textDecorationColor: 'blue'
+        textDecoration: 'line-through'
     }
 };
 
